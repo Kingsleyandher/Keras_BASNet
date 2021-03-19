@@ -1,5 +1,5 @@
 # Keras_BASNet
-中文版
+# 中文版
 
 这个项目主要利用keras实现了如下论文中提出的BASNet。该论文是基于Unet网络结构的改进。BASNet主要通过在损失函数中引入结构相似度评估准则（SSIM），来提升网络模型对图片边缘的注意力，使得分割图片的边缘更加精准。
 
@@ -7,7 +7,21 @@
 
 [代码【pytorch】](https://github.com/xuebinqin/BASNet)
 
-English vision
+# 注意
+说明：目前仅支持在图片中提取单个种类的目标，因此分类种类即前景和背景总共两类。  
+
+# 训练自己的数据
+
+训练集：训练图片 训练标签  
+分别放在/Data/train/train_image/ 和 /Data/train/train_label/ 路径下。  
+注意必须保持同一张图片和标签名称的一致性，且最好均为png文件。  
+测试集：测试图片 测试标签
+分别放在/Data/test/test_image/ 和 /Data/test/test_label/ 路径下。  
+注意必须保持同一张图片和标签名称的一致性，且最好均为png文件。  
+
+
+
+# English vision
 
 This project mainly uses Keras to implement the **BASNet** proposed in the following paper. This paper is based on the improvement of UNET network structure. Basnet mainly introduces Structural Similarity Assessment Criterion (SSIM) into the loss function to improve the attention of the network model to the edge of the image, so as to make the edge segmentation of the image more accurate.
 
@@ -17,12 +31,26 @@ This project mainly uses Keras to implement the **BASNet** proposed in the follo
 
 # Required libraries
 
-keras =  2.2.5
+keras =  2.2.5  
+
 tensorflow = 1.14.0
+
+# Train your own data
+
+Training set: Training images and Training labels  
+
+/Data/train/train_image/ and /Data/train/train_label/   respectively.  
+
+Note that the same image and label name must be consistent, preferably in a PNG file.  
+
+Test set: Testing image and Testing label  
+
+/Data/test/test_image/ and /Data/test/test_label/, respectively.  
+
+Note that the same image and label name must be consistent, preferably in a PNG file.  
 
 
 # Paper Citation
-
 
 > ```
 > @InProceedings{Qin_2019_CVPR,
