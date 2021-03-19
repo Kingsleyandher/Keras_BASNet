@@ -1,3 +1,4 @@
+# Keras_BASNet
 中文版
 
 这个项目主要利用keras实现了如下论文中提出的BASNet。该论文是基于Unet网络结构的改进。BASNet主要通过在损失函数中引入结构相似度评估准则（SSIM），来提升网络模型对图片边缘的注意力，使得分割图片的边缘更加精准。
@@ -14,4 +15,15 @@ This project mainly uses Keras to implement the **BASNet** proposed in the follo
 
 [code【pytorch】](https://github.com/xuebinqin/BASNet)
 
+#lRequired libraries
+keras =  2.2.5
+tensorflow = 1.14.0
 
+# Paper Citation
+@InProceedings{Qin_2019_CVPR,
+author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
+title = {BASNet: Boundary-Aware Salient Object Detection},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+}
