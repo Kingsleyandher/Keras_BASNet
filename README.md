@@ -5,7 +5,8 @@
 
 [原论文](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)
 
-[代码【pytorch】](https://github.com/xuebinqin/BASNet)
+[代码【pytorch】](https://github.com/xuebinqin/BASNet)  
+
 
 # 注意
 说明：目前仅支持在图片中提取单个种类的目标，因此分类种类即前景和背景总共两类。  
