@@ -7,6 +7,14 @@
 
 [代码【pytorch】](https://github.com/xuebinqin/BASNet)  
 
+# 效果展示
+![original](http://github.com/Kingsleyandher/Keras_BASNet/figure/original.png)  
+
+![Unet_resnet50](http://github.com/Kingsleyandher/Keras_BASNet/figure/Unet_resnet50.png)  
+
+![Unet_vgg16](http://github.com/Kingsleyandher/Keras_BASNet/figure/Unet_vgg16.png)   
+
+![BASNet](http://github.com/Kingsleyandher/Keras_BASNet/figure/BASNet.png)
 
 # 注意
 说明：目前仅支持在图片中提取单个种类的目标，因此分类种类即前景和背景总共两类。  
@@ -35,6 +43,11 @@ This project mainly uses Keras to implement the **BASNet** proposed in the follo
 keras =  2.2.5  
 
 tensorflow = 1.14.0
+
+# Notice
+
+Currently only the target of extracting a single category in the image is supported, so the category category is a total of two categories, namely foreground and background.  
+
 
 # Train your own data
 
