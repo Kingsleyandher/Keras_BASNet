@@ -8,13 +8,22 @@
 [代码【pytorch】](https://github.com/xuebinqin/BASNet)  
 
 # 效果展示
-![original](https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/original.png)  
+原始图片：  
 
-![Unet_resnet50](https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_resnet50.png)  
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/original.png" width="300" height="450" /></div>
 
-![Unet_vgg16](https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_vgg16.png)   
+Unet-RestNet50 分割结果：  
 
-![BASNet](https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/BASNet.png)
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_resnet50.png" width="300" height="450" /></div>
+
+Unet-VGG16 分割结果：  
+
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_vgg16.png" width="300" height="450" /></div>
+
+BASNet-ResNet34 分割结果：
+
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/BASNet.png" width="300" height="450" /></div>
+
 
 # 注意
 说明：目前仅支持在图片中提取单个种类的目标，因此分类种类即前景和背景总共两类。  
