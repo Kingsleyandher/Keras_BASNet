@@ -10,19 +10,19 @@
 # 效果展示
 原始图片：  
 
-<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/original.png" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/original.png" width="400" height="280" /></div>
 
 Unet-RestNet50 分割结果：  
 
-<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_resnet50.png" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_resnet50.png" width="400" height="280" /></div>
 
 Unet-VGG16 分割结果：  
 
-<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_vgg16.png" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/Unet_vgg16.png" width="400" height="280" /></div>
 
 BASNet-ResNet34 分割结果：
 
-<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/BASNet.png" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/Kingsleyandher/Keras_BASNet/blob/main/figure/BASNet.png" width="400" height="280" /></div>
 
 
 # 注意
